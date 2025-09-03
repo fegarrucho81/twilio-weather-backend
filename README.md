@@ -1,7 +1,7 @@
 # Backend Internship Project - Weather + Twilio SMS
 
 This is a proof-of-concept backend project built with **Node.js**.  
-It demonstrates usage of a public API **(OpenWeather)** and the **Twilio API** for sending SMS.  
+It demonstrates usage of a public API **(OpenWeather)**, that returns both a JSON response and sends an SMS.  
 The project includes API endpoints ready for POST requests.
 
 ---
@@ -9,7 +9,7 @@ The project includes API endpoints ready for POST requests.
 ## Features
 
 - Fetch current weather for a given city using OpenWeather API.
-- Send an SMS with a custom message using Twilio API.
+- Send an SMS returning the temperature and conditions of the requested city.
 - REST API endpoints built in Node.js, ready to deploy or run locally.
 
 ---
@@ -102,6 +102,11 @@ npm run dev
   "temperature": 20,
   "description": "clear sky"
 }
+```
+
+**Received SMS:**
+```
+Sent from your Twilio trial account - Weather in London: clear sky, 20.00ºC
 ```
 
 ### Notes
