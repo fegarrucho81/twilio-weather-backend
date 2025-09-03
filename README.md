@@ -16,6 +16,7 @@ The project includes API endpoints ready for POST requests.
 
 ## Project Structure
 
+```
 ├── app.js # Main server file, sets up routes and middleware
 ├── routes.js # Defines API endpoints for weather and SMS
 ├── twilioService.js # Handles sending SMS via Twilio
@@ -23,6 +24,7 @@ The project includes API endpoints ready for POST requests.
 ├── package.json # Project dependencies and scripts
 ├── .env # Environment variables (keys, tokens, phone numbers)
 └── README.md # Project documentation
+```
 
 ---
 
