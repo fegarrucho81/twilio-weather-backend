@@ -5,7 +5,9 @@ It demonstrates usage of a public API **(OpenWeather)**, that returns both a JSO
 The project includes API endpoints ready for POST requests.
 
 ---
+
 **Project Deployed**: [Check the project in production](https://twilio-weather-backend-production.up.railway.app/api/weather)
+
 ---
 
 ## Features
