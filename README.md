@@ -5,6 +5,8 @@ It demonstrates usage of a public API **(OpenWeather)**, that returns both a JSO
 The project includes API endpoints ready for POST requests.
 
 ---
+**Project Deployed**: [Check the project in production](https://twilio-weather-backend-production.up.railway.app/api/weather)
+---
 
 ## Features
 
@@ -85,7 +87,12 @@ npm run dev
 
 ---
 
-## API Endpoints
+## API Endpoints 
+### Note: You can run it locally, or use the production version with https://twilio-weather-backend-production.up.railway.app
+
+
+### GET /api/weather
+**Description:** Return the latest city forecasted.
 
 ### POST /api/weather
 **Description:** Get current weather for a city.
